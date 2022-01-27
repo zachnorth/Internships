@@ -1,0 +1,34 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.payPerHourButtons {
+  margin: 20px;
+}
+
+.form-control {
+  background-color: #1e1e2f;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.avatar-logo {
+  width: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.center {
+  margin: auto;
+}

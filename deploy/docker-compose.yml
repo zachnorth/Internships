@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  servicesmongo:
+    restart: always
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_ROOT_DATABASE: data
+    ports:
+      - "27017:27017"
+    # command: [--auth]
